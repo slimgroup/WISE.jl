@@ -42,7 +42,7 @@ d = (12.5f0, 12.5f0)
 o = (0f0, 0f0)
 
 # Plotting configs
-background_type = "1d-special"
+background_type = "1d-average"
 sim_name = "gen_ext-rtm-$(background_type)"
 plot_path = joinpath(plotsdir(),sim_name)
 

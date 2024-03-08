@@ -1,5 +1,7 @@
 <h1 align="center">WISE: full-Waveform variational Inference via Subsurface Extensions</h1>
 
+[![][license-img]][license-status]
+
 Code to reproduce results in Ziyi Yin\*, Rafael Orozco\*, Mathias Louboutin, Felix J. Herrmann, "[WISE: full-Waveform variational Inference via Subsurface Extensions](https://arxiv.org/abs/2401.06230)". DOI: 10.48550/arXiv.2401.06230
 
 ## Software descriptions

@@ -1,6 +1,6 @@
 <h1 align="center">WISE: full-Waveform variational Inference via Subsurface Extensions</h1>
 
-[![][license-img]][license-status]
+[![][license-img]][license-status] [![][zenodo-img]][zenodo-status]
 
 Code to reproduce results in Ziyi Yin\*, Rafael Orozco\*, Mathias Louboutin, Felix J. Herrmann, "[WISE: full-Waveform variational Inference via Subsurface Extensions](https://arxiv.org/abs/2401.06230)". DOI: 10.48550/arXiv.2401.06230
 
@@ -60,3 +60,5 @@ SLIM public GitHub account, [https://github.com/slimgroup](https://github.com/sl
 [InvertibleNetworks.jl]:https://github.com/slimgroup/InvertibleNetworks.jl
 [Ziyi Yin]:https://ziyiyin97.github.io/
 [Rafael Orozco]:https://slim.gatech.edu/people/rafael-orozco
+[zenodo-status]:https://doi.org/10.5281/zenodo.10910092
+[zenodo-img]:https://zenodo.org/badge/DOI/10.5281/zenodo.10910092.svg?style=plastic

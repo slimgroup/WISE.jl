@@ -2,7 +2,7 @@
 
 [![][license-img]][license-status] [![][zenodo-img]][zenodo-status]
 
-Code to reproduce results in Ziyi Yin\*, Rafael Orozco\*, Mathias Louboutin, Felix J. Herrmann, "[WISE: full-Waveform variational Inference via Subsurface Extensions](https://arxiv.org/abs/2401.06230)". DOI: 10.48550/arXiv.2401.06230
+Code to reproduce results in Ziyi Yin\*, Rafael Orozco\*, Mathias Louboutin, Felix J. Herrmann, "[WISE: full-Waveform variational Inference via Subsurface Extensions](https://doi.org/10.1190/geo2023-0744.1)". Published in Geophysics. DOI: 10.1190/geo2023-0744.1
 
 ## Software descriptions
 

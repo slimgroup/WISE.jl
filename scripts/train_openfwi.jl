@@ -97,7 +97,7 @@ PyPlot.rc("font", family="serif");
 data_path = datadir("m_train_open_fwi.jld2")
 if ~isfile(data_path)
     run(`wget https://www.dropbox.com/scl/fi/ylgus05wkhkvwchcxkjih/'
-        'm_train_open_fwi.jld2 -q -O $file_path`)
+        'm_train_open_fwi.jld2 -q -O $data_path`)
 end
 m_train = JLD2.jldopen(data_path, "r")["m_train"];
 

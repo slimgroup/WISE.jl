@@ -28,3 +28,12 @@ function parse_commandline()
     end
     return parse_args(s)
 end
+
+function ContJitter(l::Number, num::Int)
+    #l = length, num = number of samples
+    interval_width = l/num
+    interval_center = range(interval_width/2, stop = l-interval_width/2, length=num)
+    randomshift = interval_width .* rand(Float32, num) .- interval_width/2
+
+    return interval_center .+ randomshift
+end

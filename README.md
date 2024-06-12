@@ -26,6 +26,8 @@ First, install [Julia](https://julialang.org/) and [Python](https://www.python.o
 
 [gen_cig_compass.jl](scripts/gen_cig_compass.jl) generates seismic data and computes common-image gathers for the velocity models in the [Compass dataset](https://doi.org/10.3997/2214-4609.20148575). [train_compass.jl](scripts/train_compass.jl) trains the conditional normalizing flows with pairs of velocity models and (extended) reverse-time migrations for the Compass dataset.
 
+[inference_compass.jl](scripts/inference_compass.jl) produces the inference results listed in the WISE paper.
+
 The script [utils.jl](scripts/utils.jl) parses the input as keywords for each experiment.
 
 ## Trained networks
@@ -36,6 +38,10 @@ The script [utils.jl](scripts/utils.jl) parses the input as keywords for each ex
 |---------------------|----------|----------|
 | Reverse-time migration | [openfwi_rtm.bson](https://www.dropbox.com/scl/fi/6k77ptwot5yjwxjgfwyl1/openfwi_rtm.bson?rlkey=wcgk6ny371qahakqgqppoujvn&dl=0) | [compass_rtm.bson](https://www.dropbox.com/scl/fi/ucqpwoz9rd9uj7gnjerxp/compass_rtm.bson?rlkey=9wtxddzev2gju5jd0aoa6vhtc&dl=0) |
 | Common-image gathers | [openfwi_cig.bson](https://www.dropbox.com/scl/fi/k3q7vyeg7fe0z7hrho6mi/openfwi_cig.bson?rlkey=4wpeq8s9x8hs5ynde3yaitcmh&dl=0) | [compass_cig.bson](https://www.dropbox.com/scl/fi/uon81i1y2xok0wj569146/compass_cig.bson?rlkey=bo2psq4z7q00j0vo9amexuf02&dl=0) | 
+
+## Further developments
+
+To further improve the inference results and mitigate the amortization gap via frugal usage of wave physics, please feel free to have a look at our latest development: [WISER](https://arxiv.org/abs/2405.10327).
 
 ## LICENSE
 
